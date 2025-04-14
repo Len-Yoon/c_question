@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//소수 구하기
 int main(void) {
     int a;
     int count = 0;
