@@ -8,4 +8,5 @@ add_executable(untitled4 main.c
         c_question/question2_250414.cpp
         c_question/question5_250414.cpp
         c_question/question4_250414.cpp
+        c_question/question3_250414.cpp
 )
