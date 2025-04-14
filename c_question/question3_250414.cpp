@@ -14,6 +14,7 @@ int main(void) {
         arr[i] = i;
     }
 
+    //에레토스테네스의 체 알고리즘 활용
     for (int i = 2; i <= n;i++) {
         if (arr[i] != 0) {
             for (int j = 2 * i;j <= n;j += i) {

@@ -4,7 +4,7 @@
 
 
 int main(void) {
-    int random[] = {2,4,5,4,6};
+    int random[5];
     int m = 0;
     int result = 0;
 
@@ -15,13 +15,11 @@ int main(void) {
     srand(time(NULL));
 
     //랜덤 숫자 생성
-    // for (int i = 0; i < 5; i++) {
-    //     for (int j = 0; j < 5; j++) {
-    //         random[i] = rand()%9 + 1;
-    //     }
-    // }
-
-
+     for (int i = 0; i < 5; i++) {
+         for (int j = 0; j < 5; j++) {
+             random[i] = rand()%9 + 1;
+         }
+     }
 
     //배열 sort
     for (int i = 0; i < 5; i++) {
